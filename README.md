@@ -8,3 +8,6 @@ git lfs pull
 ## Training summary
 Training was conducted as outlined in the paper. Both files are checkpoints after the second training phase (after noise-variance fine-tuning), whereas for the first model the second phase consists of 200.000 datasets and for the second model of 40.000 datasets. The other training parameters were identical except we used a batch size of 32 for the second model instead of 128.
 
+## License
+Amor-Struct-GP (including these weights) is open-sourced under the AGPL-3.0 license. See the
+[LICENSE](LICENSE) file for details.
